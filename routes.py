@@ -3,7 +3,7 @@ from models import db, User, Place
 from forms import SignupForm, LoginForm, AddressForm
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://localhost/learningflask'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://lboabnmnmhqwmq:e40a8c6a89de917d9ad5dbee74a85939c58a989e8747d0ee19d34ebc7edb0329@ec2-23-21-85-76.compute-1.amazonaws.com:5432/de9339g37quh17'
 # initialize db
 db.init_app(app)
 
